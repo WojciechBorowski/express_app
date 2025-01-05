@@ -1,7 +1,6 @@
-FROM node:16
-
+FROM node:16-alpine
+WORKDIR /app
 COPY . .
-
 RUN npm install
-
-CMD node index.js
+CMD ["node", "index.js"]
+EXPOSE 3000
