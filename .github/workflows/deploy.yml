@@ -21,4 +21,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: my-dockerhub-username/my-app:latest
+          tags: b0r0wski/my-app:latest
